@@ -21,24 +21,57 @@
 <!-- BS Grid Buttons -->
 <div class="container-fluid">
   <div class="row">
-  <div class="col-sm">
-    <button id="test0" class="img-button">
-    <img src="./images/skytest0.jpeg" class="img-fluid" alt="...">
-  </button>
+  <div class="col-sm mt-3">
+    <img id="i0" onclick=select0() src="images/skytest0.jpeg" class="img-fluid img-select" alt="...">
     </div>
-  <div class="col-sm">
-    <button id="test1" class="img-button">
-    <img src="./images/skytest1.jpeg" class="img-fluid" alt="...">
-  </button>
+  <div class="col-sm mt-3">
+    <img id="i1" onclick=select1() src="images/skytest1.jpeg" class="img-fluid img-select" alt="...">
     </div>
-  <div class="col-sm">
-    <button id="test2" class="img-button">
-    <img src="./images/skytest2.jpeg" class="img-fluid" alt="...">
-  </button>
+  <div class="col-sm mt-3">
+    <img id="i2" onclick=select2() src="images/skytest2.jpeg" class="img-fluid img-select" alt="...">
 </div>
 </div>
 </div>
 
+
+
+<div id="i0div" class="container-fluid mt-5" style="display: none;">
+  <div class="row">
+    <h1 class="text-center">Wing 1</h1>
+    <div class="col-4">
+    </div>
+    <div class="col-8">
+      <p class="text-center">Isle WL 1: Enter the first cave and walk to the end. Fly or jump down to the stranded boat below. Go near the glowing child and click the "hand with star" symbol to receive a wing for your cape.</p>
+    </div>
+  </div>
+</div>
+
+<div id="i1div" class="container-fluid mt-5" style="display: none;">
+  <div class="row">
+    <h1 class="text-center">Wing 2</h1>
+    <div class="col-4"></div>
+    <div class="col-8">
+      <p class="text-center">Isle WL 2: Go to the right of the cave entrance where you receive Winged Light 1, and climb above the mouth of the cave. Walk across the top of the hill to find the Child of Light at the other end.
+
+        (It's less walking if you get WL 4 before 3).</p>
+    </div>
+  </div>
+</div>
+
+
+<div id="i2div" class="container-fluid mt-5" style="display: none;">
+  <div class="row">
+    <h1 class="text-center">Wing 3</h1>
+    <div class="col-sm">
+      <div class="embed-responsive">
+        <iframe width="360" height="300" src="https://www.youtube.com/embed/w4dFbEWgq2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+    <div class="col-sm">
+      <p>Isle WL 3: Go straight ahead to the ramp further away in front of the temple. The Child of Light is at the top of the ramp. You will need to have found at least one Ancestor Spirit to enter the ramp or be able to fly to the top of it.
+    </div>
+  </div>
+</div>
 
 <script src="script.js"></script>
 </body>

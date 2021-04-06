@@ -11,35 +11,20 @@ body {
   background-attachment: fixed;
 }
 
-/* input {
-  border: 0;
-  background: transparent;
-}
-
-input :hover {
-  opacity: 50%;
-}
-
-input:focus {
-  border: 1px solid #1670be;
-  box-shadow: 0 0 3px #1670be;
-  outline-offset: 0px;
-  outline: none;
-} */
-
-.img-button {
-  border: none;
+.img-select {
   display: inline-block;
   margin: 0;
   padding: 0;
-  transition-duration: 0.4s;
+  transition-duration: 0.1s;
   cursor: pointer;
 }
 
-.img-button:hover {
-  opacity: 60%;
+.img-select:hover {
+  opacity: 70%;
 }
 
-#test-title {
-  font-size: 30px;
+.active {
+  border: 10px solid;
+  border-color: orange;
+  transition: ;
 }
