@@ -53,15 +53,6 @@ function select4() {
   }
 }
 
-function select5() {
-  var x = document.getElementById('i5div');
-  if (x.style.display === 'none') {
-    x.style.display = 'block';
-  } else {
-    x.style.display = 'none';
-  }
-}
-
 // -----------
 
 // var imgSelect = document.querySelectorAll('.img-select');
