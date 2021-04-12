@@ -1,57 +1,63 @@
-const imgSelected = document.querySelectorAll('.img-select');
+window.addEventListener('load', (event) => {
+  
+  addImageSelector();
+
+});
+
+function addImageSelector() {
+  const imgSelected = document.querySelectorAll('.img-select');
 
 imgSelected.forEach((imgSelect) => {
   imgSelect.addEventListener('click', () => {
     imgSelect.classList.toggle('activeimg');
   });
 });
+}
 
-// ---------------
-
-function select0() {
-  var x = document.getElementById('i0div');
+function selectImage(elementId) {
+  var x = document.getElementById(elementId);
   if (x.style.display === 'none') {
     x.style.display = 'block';
   } else {
     x.style.display = 'none';
   }
-}
+};
 
-function select1() {
-  var x = document.getElementById('i1div');
-  if (x.style.display === 'none') {
-    x.style.display = 'block';
-  } else {
-    x.style.display = 'none';
-  }
-}
+// function select1() {
+//   var x = document.getElementById('i1div');
+//   if (x.style.display === 'none') {
+//     x.style.display = 'block';
+//   } else {
+//     x.style.display = 'none';
+//   }
+// }
 
-function select2() {
-  var x = document.getElementById('i2div');
-  if (x.style.display === 'none') {
-    x.style.display = 'block';
-  } else {
-    x.style.display = 'none';
-  }
-}
+// function select2() {
+//   var x = document.getElementById('i2div');
+//   if (x.style.display === 'none') {
+//     x.style.display = 'block';
+//   } else {
+//     x.style.display = 'none';
+//   }
+// }
 
-function select3() {
-  var x = document.getElementById('i3div');
-  if (x.style.display === 'none') {
-    x.style.display = 'block';
-  } else {
-    x.style.display = 'none';
-  }
-}
+// function select3() {
+//   var x = document.getElementById('i3div');
+//   if (x.style.display === 'none') {
+//     x.style.display = 'block';
+//   } else {
+//     x.style.display = 'none';
+//   }
+// }
 
-function select4() {
-  var x = document.getElementById('i4div');
-  if (x.style.display === 'none') {
-    x.style.display = 'block';
-  } else {
-    x.style.display = 'none';
-  }
-}
+// function select4() {
+//   var x = document.getElementById('i4div');
+//   if (x.style.display === 'none') {
+//     x.style.display = 'block';
+//   } else {
+//     x.style.display = 'none';
+//   }
+// }
 
 // -----------
 

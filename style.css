@@ -15,16 +15,18 @@ body {
 h1 {
   font-family: 'Lato', 'Roboto', sans-serif;
   font-weight: bold;
+  font-size: xx-large;
 }
 
 h2 {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
+  font-size: x-large;
 }
 
 p {
   font-family: 'Roboto', sans-serif;
-  font-size: 2vw;
+  font-size: large;
   opacity: 80%;
 }
 
